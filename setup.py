@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 args = dict(
     name="liveplot",
     version="0.1",
+    description='Visualize your python data as it comes in, with minimal intrusion',
     packages=find_packages(),
     install_requires=["pyqtgraph>=0.9", "pyzmq>=14.0"],
     author="Philip Reinhold",
